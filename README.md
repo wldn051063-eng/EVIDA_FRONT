@@ -1,16 +1,26 @@
-# React + Vite
+# EVIDA_FRONT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EVIDA 경비 관리 시스템 프론트엔드 (React + Vite)
 
-Currently, two official plugins are available:
+## 기술 스택
+- React 18
+- React Router DOM
+- Vite
+- Lucide React (아이콘)
+- CSS Modules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 페이지 구성
+- 홈 랜딩 페이지 (슬라이드 3종)
+- 로그인 / 회원가입
+- 대시보드
+- 카드 조회
+- 영수증 작성 / 통합 조회
+- 결의서 작성
+- 거래처 조회
+- 내 정보
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 실행 방법
+```bash
+npm install
+npm run dev
+```
